@@ -1,0 +1,35 @@
+#title h2, #title h1 {
+	margin: 0;
+	
+	font-family: 'Vollkorn-Brotschrift';
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	font-family: 'Liberation Serif';
+	line-height: 170%;
+	
+	font-size: 17px;
+	
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+
+	text-indent: .5in;
+	text-align: justify;
+}
+
+
+#footer {
+	text-align: center;
+	position: relative;
+	margin-top: 3in;
+	font-family: 'Liberation Serif';
+	line-height: 170%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	color: #666;
+	
+	font-size: 14px;
+}

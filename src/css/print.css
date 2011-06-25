@@ -1,0 +1,22 @@
+#content{
+	background-color: white;
+
+	margin: 0 auto;
+	display: block;
+
+	padding: .5in 1in 1in 1in;
+		
+	font-size: 1em;
+	
+	width: 6.5in;
+	min-height: 9in;
+}
+
+#leftbar {
+	display:none;
+}
+
+@page {
+	margin: 0;
+	padding: 0;
+}

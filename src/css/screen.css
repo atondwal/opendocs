@@ -1,0 +1,35 @@
+body {
+	width: 6.5in;
+	height: 9in;
+	
+	margin: 0 auto;
+	padding: 1in;
+	
+	background-color: white;
+	
+	-moz-box-shadow: 0 0 10px 5px #aaa;
+	-webkit-box-shadow: 0 0 10px 5px #aaa;
+	box-shadow: 0 0 10px 5px #aaa;
+}
+
+html {
+	background-color: #ccc;
+	padding: 20px;
+}
+
+#title {
+	text-align: center;
+}
+
+
+#rightbar{
+	position:fixed;
+	top:0;
+	right:0;
+}
+
+#leftbar{
+	position:fixed;
+	top:0;
+	left:0;
+}

@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+<title>Open Web Document Editor.</title>
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+<link rel="stylesheet" type="text/css" media="screen,print" href="css/user.css" />
+
+<!-- fonts //-->
+<link href="http://kernest.com/fonts/liberation-serif-regular.css" media="screen,print" rel="stylesheet" type="text/css" />
+<link href="http://kernest.com/fonts/vollkorn-brotschrift.css" media="screen,print" rel="stylesheet" type="text/css" />
+
+<script type='text/javascript' src='js/leftbar.js' /> </script>
+<script type='text/javascript' src='../third/js/diff_match_patch.js' /></script>
+<script type='text/javascript' src='../third/js/json2.js' /></script>
+<script type='text/javascript' src='../third/js/socket.io.js' /></script>
+<script type='text/javascript' src='../third/js/wave.js' /></script>
+<script type='text/javascript' src='js/client.js' /></script>
+<script src="http://owdocs.com/beta/rangy/rangy-core.js" type="text/javascript"></script> 
+<script src="http://owdocs.com/beta/rangy/rangy-selectionsaverestore.js" type="text/javascript"></script> 
+<script type='text/javascript' src='../third/js/rangy.js' /></script>
+
+<script type="text/javascript">
+	wave.setSharedDataKey("SPACE1");
+	wave.setViewer("xxxx","bob","alien.png");
+</script>
+
+</head>
+
+<body contenteditable=true onload="init();barInit();" >
+<div id="leftbar"></div>
+<div id="rightbar"></div>
+<div id=content>
+<div id='title'> 
+	<h1>Open Web Documents</h1> 
+	<h2>A manifesto.</h2> 
+</div> 
+ 
+<p>If you have a sheet of paper and a pen, you can write anything. You have the freedom to put anything down on the page and style it as you wish. Now, why not apply that to your documents online? Why not treat a web document like a blank canvas?</p> 
+ 
+</script>
+<p>Document editing should be simple and effective. This is common in every document editor, but let's take things one step further. Documents should be in <em>your</em> control. You should be able to customize <em>every</em> aspect of your document. Change the fonts, margins, colors, you name it. Harness the power of CSS to make brilliant documents. Or don't. It's <em>your</em> document.</p> 
+ 
+<p>Document editing should be intuitive. Take advantage of fast web browsers to build WYSIWYG content, while working to maintain compatibility with debugging tools like Firebug and Chrome's element inspector, so you can put away the markup when it clutters your vision, and bring it back again, when you want to make use of powerful text editing.</p> 
+ 
+<p>Documents should be open. Why should one be under the influence of a single company or foundation? Why limit yourself to a handful of operating systems? Free yourself from restrictions by using standardized and 100% free formats&mdash;formats available on every single (web capable) computing device on the planet.</p> 
+ 
+<div id=footer> 
+	Created with 100% HTML and CSS
+</div> 
+</div> 
+</body>
+
+</html>
