@@ -13,7 +13,7 @@ Get node.js
         $ cd node
         $ ./configure
         $ make
-        # make install
+        $ make install
 
 Get npm, the node pacman
 
